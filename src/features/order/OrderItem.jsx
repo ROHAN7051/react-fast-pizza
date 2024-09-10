@@ -1,4 +1,9 @@
-function OrderItem({ item, isLoadingIngredients, ingredients }) {
+function OrderItem({
+  item,
+  isLoadingIngredients,
+  ingredients,
+  formatCurrency,
+}) {
   const { quantity, name, totalPrice } = item;
 
   return (
